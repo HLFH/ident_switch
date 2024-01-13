@@ -100,8 +100,12 @@ class ident_switch extends rcube_plugin
 
 	private function render_switch($rc, $args)
 	{
-		// Currently selected identity
-		$iid_s = $_SESSION['iid' . self::MY_POSTFIX];
+		// Define a default value for 'iid'
+                $default_iid_value = 0;
+
+                // Check if the session variable is set and assign its value to 'iid_s'
+                // Currently selected identity
+                $iid_s = isset($_SESSION['iid' . self::MY_POSTFIX]) ? $_SESSION['iid' . self::MY_POSTFIX] : $default_iid_value;
 
 		$iid = 0;
 		if (is_int($iid_s))
