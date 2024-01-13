@@ -5,7 +5,7 @@
 ![](https://img.shields.io/packagist/dt/toteph42/ident_switch.svg)
 
 ---------------------------------------------------------
-## Feel free to submit any issues you have.##
+## Feel free to submit any issues you have.
 ---------------------------------------------------------
 
 ident_switch plugin for Roundcube
