@@ -42,6 +42,6 @@ This plugin allows users to switch between different accounts (including remote)
 * Versions 1.X (not supported any more) - for Roundcube v1.1
 * Versions 2.X (not supported any more) - for Roundcube v1.2
 * Versions 3.X (not supported any more) - for Roundcube v1.3
-* Versions 4.x - for Roundcube v1.3, 1.4 and 1.5.
+* Versions 4.x - for Roundcube v1.3, 1.4, 1.5 and 1.6
 
 Please specify version like "~2.0" in your composer.json file for ident_switch requirement. In this case you will stay inside compatible branch until you manually update your Roundcube installation.
