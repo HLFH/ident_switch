@@ -4,10 +4,6 @@
 ![](https://img.shields.io/packagist/l/toteph42/ident_switch.svg)
 ![](https://img.shields.io/packagist/dt/toteph42/ident_switch.svg)
 
----------------------------------------------------------
-## Feel free to submit any issues you have.
----------------------------------------------------------
-
 ident_switch plugin for Roundcube
 
 This plugin allows users to switch between different accounts (including remote) in single Roundcube session like this:
