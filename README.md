@@ -17,7 +17,8 @@ This plugin allows users to switch between different accounts (including remote)
 *Inspired by identities_imap plugin that is no longer supported.*
 
 ### Where to start ###
-* In settings interface create new identity.
+* Register the `ident_switch` table in Roundcube database: `mariadb -u root -p roundcubemail < ident_switch/SQL/mysql.initial.sql`
+* In Roundcube settings interface, create new identity.
 * For all identities except default you will see new section of settings - "Plugin ident_switch" (see screenshot below). Enter data required to connect to  remote server. Don't forget to check Enabled check box.
 * After you have created at least one identity with active plugin you will see combobox in the top right corner instead of plain text field with account name. It will allows you to switch to another account.
 
